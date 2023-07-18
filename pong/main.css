@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+.fullpalya{
+    background: darkolivegreen;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.palya{
+    background: darkgreen;
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    left: 50px;
+}
+.uto{
+    background: darkgrey;
+    width: 10px;
+    height: 100px;
+    position: absolute;
+    box-shadow: 6px 6px 2px hsla(0, 0%, 0%, 0.9);
+}
+.labda{
+    background: darkgrey;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    box-shadow: 6px 6px 2px hsla(0, 0%, 0%, 0.9);
+}
+.scoreContainer{
+    background: darkgrey;
+    margin: 10px;
+    width: 50px;
+    height: 30px;
+    border: solid darkgreen 3px;  
+}
+#p1Container{
+    position: relative;
+    left: 800px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 10px;font-family: 'Courier New', Courier, monospace;
+}
+#p2Container{
+    position: relative;
+    left: 800px;display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 10px;font-family: 'Courier New', Courier, monospace;
+}

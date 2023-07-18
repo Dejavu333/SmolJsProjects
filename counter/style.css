@@ -1,0 +1,32 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    background-color: salmon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.counter-box{
+    text-align: center;
+    border: 3px solid gray;
+    padding: 1rem;
+    box-shadow: 30px 30px 3px rgba(0, 0, 0, 0.75);
+}
+
+
+.counter{
+    font-size: 5rem;
+}
+
+
+.btn{
+    padding: 10px;
+    color: white;
+    background-color: salmon;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
